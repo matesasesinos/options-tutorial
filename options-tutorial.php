@@ -6,6 +6,8 @@
  * Author: Juan Iriart
  * Author URI: https://matecito.ar
  * Version: 1.0.0
+ * License: CC-BY
+ * License URI: https://creativecommons.org/licenses/by/4.0/
  */
 
 

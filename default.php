@@ -52,15 +52,15 @@ if (!function_exists('mtCustomMenu')) { //show options page | mostrar la página
         </div>
 <?php
     }
-
-    function mtRegisterOptions()
-    {
-        register_setting('mtOptionsCustom', 'textField');
-        register_setting('mtOptionsCustom', 'selectField');
-        register_setting('mtOptionsCustom', 'checkbox1');
-        register_setting('mtOptionsCustom', 'checkbox2');
-        register_setting('mtOptionsCustom', 'gradioGroup');
-        register_setting('mtOptionsCustom', 'textareaField');
-    }
-    add_action('admin_init', 'mtRegisterOptions');
 }
+
+function mtRegisterOptions()
+{
+    register_setting('mtOptionsCustom', 'textField');
+    register_setting('mtOptionsCustom', 'selectField');
+    register_setting('mtOptionsCustom', 'checkbox1');
+    register_setting('mtOptionsCustom', 'checkbox2');
+    register_setting('mtOptionsCustom', 'gradioGroup');
+    register_setting('mtOptionsCustom', 'textareaField');
+}
+add_action('admin_init', 'mtRegisterOptions');
